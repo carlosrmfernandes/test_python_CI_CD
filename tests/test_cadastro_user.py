@@ -13,7 +13,7 @@ class TestCadastroUser(unittest.TestCase):
 
     def test_cadastrar_novo_usuario(self):
         resultado = cadastrar_usuario("João", "joao@example.com")
-        self.assertEqual(resultado, "Usuário cadastrado com sucessokkk")
+        self.assertEqual(resultado, "Usuário cadastrado com sucesso")
         self.assertEqual(len(usuarios), 1)
         self.assertEqual(usuarios[0]['nome'], "João")
         self.assertEqual(usuarios[0]['email'], "joao@example.com")
