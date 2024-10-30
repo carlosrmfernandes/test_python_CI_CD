@@ -20,5 +20,5 @@ jobs:
         with:
           python-version: '3.12'
       - name: Run tests
-        run: python -m unittest tests/test_cadastro_user.py
+          run: python -m unittest tests/test_cadastro_user.py
 
