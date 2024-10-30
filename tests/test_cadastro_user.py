@@ -8,6 +8,7 @@ class TestCadastroUser(unittest.TestCase):
         self.assertEqual(add(0, 0), 0)
         self.assertEqual(add(1, 1), 2)
         self.assertEqual(add(5, 5), 10)
+        self.assertEqual(add(6, 6), 12)
     
     def setUp(self):
         
