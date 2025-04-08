@@ -3,6 +3,7 @@ usuarios = []
 def add(a, b):
     return a + b
 
+
 def cadastrar_usuario(nome, email):    
     for usuario in usuarios:
         if usuario['email'] == email:
